@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Hub - Where Communities Thrive</title>
+    <link rel="stylesheet" href="Main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <h2>Connect Hub</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="Features.html">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="Nitro.html">Premium</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button class="btn-login" id="loginBtn">Login</button>
+                <button class="btn-signup" id="signupBtn">Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">IMAGINE A PLACE...</h1>
+                <p class="hero-description">
+                    ...where you can belong to a school club, a gaming group, or a worldwide art community. 
+                    Where just you and a handful of friends can spend time together. A place that makes it 
+                    easy to talk every day and hang out more often.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Download for Windows</button>
+                    <button class="btn-secondary">Open Connect Hub in your browser</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="feature-card">
+                <div class="feature-text">
+                    <h2>Create an invite-only place where you belong</h2>
+                    <p>Connect Hub servers are organized into topic-based channels where you can collaborate, 
+                    share, and just talk about your day without clogging up a group chat.</p>
+                </div>
+                <div class="feature-image">
+                    <div class="placeholder-img">Feature Image 1</div>
+                </div>
+            </div>
+
+            <div class="feature-card reverse">
+                <div class="feature-image">
+                    <div class="placeholder-img">Feature Image 2</div>
+                </div>
+                <div class="feature-text">
+                    <h2>Where hanging out is easy</h2>
+                    <p>Grab a seat in a voice channel when you're free. Friends in your server can see you're 
+                    around and instantly pop in to talk without having to call.</p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-text">
+                    <h2>From few to a fandom</h2>
+                    <p>Get any community running with moderation tools and custom member access. Give members 
+                    special powers, set up private channels, and more.</p>
+                </div>
+                <div class="feature-image">
+                    <div class="placeholder-img">Feature Image 3</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to start your journey?</h2>
+            <p>Join millions of users on Connect Hub today</p>
+            <button class="btn-primary">Get Started</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <h3>Connect Hub</h3>
+                <p>Your place to talk and hang out</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Product</h4>
+                    <a href="#">Download</a>
+                    <a href="Nitro.html">Nitro</a>
+                    <a href="#">Status</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <a href="#">About</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Branding</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <a href="#">Support</a>
+                    <a href="#">Safety</a>
+                    <a href="#">Blog</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Connect Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="loginModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <span class="close-btn" id="closeLogin">&times;</span>
+            <div class="form-container">
+                <h2>Welcome Back!</h2>
+                <p class="form-subtitle">We're so excited to see you again!</p>
+                <form class="auth-form">
+                    <div class="form-group">
+                        <label>Email or Username</label>
+                        <input type="text" placeholder="Enter your email or username" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" placeholder="Enter your password" required>
+                    </div>
+                    <a href="#" class="forgot-password">Forgot your password?</a>
+                    <button type="submit" class="btn-form">Login</button>
+                    <p class="form-switch">Need an account? <a href="#" id="switchToSignup">Register</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="signupModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <span class="close-btn" id="closeSignup">&times;</span>
+            <div class="form-container">
+                <h2>Create an Account</h2>
+                <p class="form-subtitle">Join Connect Hub today!</p>
+                <form class="auth-form">
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Username</label>
+                        <input type="text" placeholder="Choose a username" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" placeholder="Create a password" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Confirm Password</label>
+                        <input type="password" placeholder="Confirm your password" required>
+                    </div>
+                    <button type="submit" class="btn-form">Sign Up</button>
+                    <p class="form-switch">Already have an account? <a href="#" id="switchToLogin">Login</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
